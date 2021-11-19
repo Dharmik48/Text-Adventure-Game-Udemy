@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7392c300fb3791428a3f7d0d50a3d79, type: 3}
+  m_Name: EldelvainReleaseDay
+  m_EditorClassIdentifier: 
+  storyText: "Next Morning\u2026. (Eldelvain Release Day)\r\n\r\n\u201CGood Morning!
+    Oh shit shit shit!!!! I am LATE!!!!!!!!!!!!!!!!!! JOHN(Teddy\u2019s roommate)
+    why did you turn off the alarm today again! I Strictly told you not to mess with
+    my ALARM!\u201C. \u201COh come on Ted, '' said John,\u201D it's the weekend and
+    you work so hard every day so I thought of letting you have some rest!\u201D.
+    Teddy said, \u201CYou know it\u2019s the day Eldelvain\u201D comes out!\u201D.
+    \u201CWhy do you worry about that, I mean you work at a bookstore, you won\u2019t
+    have to spend your day standing in queues\u201D John said calmly. A bit relieved
+    Teddy said, \u201CI mean you have a point but..\u201D. \u201CNO buts\u201D, interrupted
+    John, continuing with, \u201CNow come on, make us some breakfast, it\u2019s your
+    turn today!\u201D. Teddy straight up refused to make breakfast as a punishment
+    for setting off the alarm. Angry John, not ready to make the breakfast, stood
+    against the door not allowing Ted to go to the store.\r\n\r\n\tOption 1 - Trick
+    John and go to the store.\n\tOption 2 - Make breakfast and then go to the store.\r"
+  nextStates:
+  - {fileID: 11400000, guid: 68cbcce8a07cfa94faf1bc8558c635d9, type: 2}
+  - {fileID: 11400000, guid: 54cf49674435459469c9be7c234cb068, type: 2}
