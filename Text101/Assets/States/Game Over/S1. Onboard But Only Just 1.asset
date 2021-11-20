@@ -17,5 +17,6 @@ MonoBehaviour:
     you start to drift out of the hangar, you hear shouts of dismay from a nearby
     group of Festers. \r\n\r\n\"So long suckers! May we never meet again!\", you
     holler. You may, you may not. Time will tell. \r\n\r\nYou've won this battle.
-    Now, on with the war!\r\n\r\n1. Continue..."
-  nextStates: []
+    Now, on with the war!\r\n\n--- Game Over ---\r\n\n1. Play Again..."
+  nextStates:
+  - {fileID: 11400000, guid: 2b60f3943c44f9d4c8c01cabd907d785, type: 2}
