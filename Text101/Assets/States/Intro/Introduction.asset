@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7392c300fb3791428a3f7d0d50a3d79, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to the Game!
+
+
+    This is a text based, chose your own adventure
+    game set in a fictional world of "Eldelvain". You will be presented with many
+    choises, chose carefully or who know''s what might happen!
+
+
+    Press ''q''
+    to exit anytime.
+
+
+    Have Fun!
+
+
+    1. Continue'
+  nextStates:
+  - {fileID: 11400000, guid: 2b60f3943c44f9d4c8c01cabd907d785, type: 2}

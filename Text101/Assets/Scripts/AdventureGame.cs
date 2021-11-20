@@ -28,29 +28,19 @@ public class AdventureGame : MonoBehaviour
   {
     var nextStates = currentState.GetNextStates();
 
-    if (nextStates.Length == 1)
+    if (Input.GetKeyDown(KeyCode.Alpha1))
     {
-      if (Input.GetKeyDown(KeyCode.Return))
-      {
-        currentState = nextStates[0];
-      }
+      currentState = nextStates[0];
     }
-    else
+    else if (Input.GetKeyDown(KeyCode.Alpha2))
     {
-      if (Input.GetKeyDown(KeyCode.Alpha1))
-      {
-        currentState = nextStates[0];
-      }
-      else if (Input.GetKeyDown(KeyCode.Alpha2))
-      {
-        currentState = nextStates[1];
-      }
-      else if (Input.GetKeyDown(KeyCode.Alpha3))
-      {
-        currentState = nextStates[2];
-      }
+      currentState = nextStates[1];
+    }
+    else if (Input.GetKeyDown(KeyCode.Alpha3))
+    {
+      currentState = nextStates[2];
+    }
 
-    }
 
 
     textComponent.text = currentState.GetStateStory();
